@@ -4,8 +4,6 @@ import 'package:json_annotation/json_annotation.dart';
 
 import '../local_storage.dart';
 
-part 'chatwoot_contact.g.dart';
-
 @JsonSerializable(explicitToJson: true)
 @HiveType(typeId: CHATWOOT_CONTACT_HIVE_TYPE_ID)
 class ChatwootContact extends Equatable {
